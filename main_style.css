@@ -1,0 +1,158 @@
+title {
+    color: back;
+}
+
+h1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 400%;
+    position: static;
+    margin-top: 0%;
+}
+
+.but1 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but1:hover {
+  background-color: #98d2ec;
+  color: black;
+}
+.but2 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but2:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but0 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 21px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.but3 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but3:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but4 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but4:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but5 {
+    display: block;
+    width: 14%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but5:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+
+.fon {
+    background:
+    url("images/fon3.jpg") center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.line_first {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+}
+
+.line_second {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 97%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    width: 18%;
+    z-index: 1!important;
+}
+
+.text1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 200%;
+    position: static;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 50px;
+}
