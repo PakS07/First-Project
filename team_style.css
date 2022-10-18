@@ -1,0 +1,221 @@
+h1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%; 
+    margin-bottom: 2%;
+}
+
+.but1 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but1:hover {
+  background-color: #98d2ec;
+  color: black;
+}
+.but11 {
+    position: absolute;
+    top: 130%;
+    margin: 0%;
+    display: block;
+    width: 16%;
+    border: none;
+    background-color: rgba(245, 0, 97, 85%);
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.but11:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but2 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 1.1vw;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but0 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 21px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.but3 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but3:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but4 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but4:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but5 {
+    display: block;
+    width: 14%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but5:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+
+
+.text1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5vw;
+    position: relative;
+}
+.text2 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5vw;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.fon {
+    background:
+    url("images/fon3.jpg") center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.line_first {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+    z-index: 1!important;
+}
+
+.line_second {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 97%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1!important;
+}
+
+.table_players {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    left: 20%;
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #f50061;
+    color: white;
+    width: 20%;
+}
+
+.pl_1 {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+/* Контейнер для flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/*Стовпчики*/
+.column {
+    padding: 10px;
+}
+
+/* Лівий та правий стовпчик */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Середній стовпчик*/
+.column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 1;
+}
