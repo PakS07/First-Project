@@ -1,0 +1,265 @@
+title {
+    color: back;
+}
+
+h1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 400%;
+    position: relative;
+    padding-bottom: 0%;
+    margin-bottom: 3%;
+    margin-top: 0%;
+}
+
+.but1 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 1.1vw;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+
+.but11 {
+    position: absolute;
+    top: 130%;
+    margin: 0%;
+    display: block;
+    width: 16%;
+    border: none;
+    background-color: rgba(30, 41, 79, 85%);
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but11:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+
+.but2 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but2:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but0 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 21px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.but3 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but3:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but4 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but4:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but5 {
+    display: block;
+    width: 14%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+
+
+.but5:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+
+.text1 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+    top: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-indent: 35px;
+}
+.text2 {
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+    top: 0%;
+    margin-bottom: 14%;
+    margin-top: 0%;
+    text-indent: 35px;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    position: relative;
+    top: -10vw;
+    margin-left: 5%;
+}
+.img2 {
+    display: block;
+    margin: 0 auto;
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 150%;
+    position: relative;
+    top: -10vw;
+    margin-left: 5%;
+}
+
+.fon {
+    background:
+    url("images/fon3.jpg") center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.line_first {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+    z-index: 1!important;
+}
+
+.line_second {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 97%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10!important;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    width: 18%;
+    z-index: 1!important;
+}
+.logo_old {
+    margin-left: 15%;
+    width: 75%;
+    position: relative;
+    top: -10vw;
+}
+
+.logo_sela_myniua {
+    margin-left: 15%;
+    width: 75%;
+    position: relative;
+    top: -10vw;
+}
+
+
+
+
+
+
+/* Контейнер для flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Создайте три неравных столбца, которые сидят рядом друг с другом */
+.column {
+    padding: 10px;
+}
+
+/* Лівий та правий стовпчик */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Середній стовпчик*/
+.column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}

@@ -1,0 +1,271 @@
+title {
+    color: back;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    color: #1e294f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 288%;
+    position: static;
+}
+
+.but1 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but1:hover {
+  background-color: #98d2ec;
+  color: black;
+}
+.but11 {
+    position: absolute;
+    top: 130%;
+    margin: 0%;
+    display: block;
+    width: 16%;
+    border: none;
+    background-color: rgba(245, 0, 97, 85%);
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.but11:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but2 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but2:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but0 {
+    display: block;
+    width: 20%;
+    border: none;
+    background-color: #f50061;
+    padding: 21px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.but3 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but3:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but4 {
+    display: block;
+    width: 13%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but4:hover {
+    background-color: #98d2ec;
+    color: black;
+}
+.but5 {
+    display: block;
+    width: 14%;
+    border: none;
+    background-color: #1e294f;
+    padding: 1.1vw;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: cursive;
+}
+.but5:hover {
+    background-color: #98d2ec;
+    color: black;
+}   
+
+.fon {
+    background:
+    url("images/fon3.jpg") center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.line_first {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+}
+
+.line_second {
+    background-color: f50061;
+    overflow: visible;
+    position: fixed;
+    top: 97%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    width: 18%;
+    z-index: 1!important;
+}
+
+.text1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px #000000;
+    font-family: cursive;
+    font-size: 200%;
+    position: absolute;
+    top: 48%;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.table_matches {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #f50061;
+    color: white;
+}
+.th1 {
+    background-color: f50061;
+    color: white;
+    width: 20%;
+}
+.th2 {
+    background-color: f50061;
+    color: white;
+    width: 15%;
+}
+
+.mini_logo {
+    width: 30%;
+}
+
+.dropbtn {
+    background-color: #c2004d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+    padding: 25px;
+    font-size: 21px;
+}
+
+.dropdown {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    font-family: cursive;
+    width: 20vw;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    width: 20%;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: #1e294f;
+    text-decoration: none;
+    display: block;
+    margin-bottom: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 120%;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #98d2ec;
+}
+
+.video1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
